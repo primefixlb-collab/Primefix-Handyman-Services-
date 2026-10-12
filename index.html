@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="PrimeFix Handyman Services provides reliable home repairs in Irvine, Tustin, Santa Ana, Costa Mesa, Mission Viejo and surrounding South Orange County. Call or text 949-795-2203 for a free estimate.">
+<title>PrimeFix Handyman Services | No Job Is Too Small</title>
+<style>
+:root{--navy:#061a34;--navy2:#0a2b50;--yellow:#ffdc3f;--white:#fff;--ink:#0a1b37;--muted:#526074}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.5}
+a{color:inherit}.wrap{width:min(1200px,92%);margin:auto}.topbar{background:#03142a;color:#fff;position:sticky;top:0;z-index:20;border-bottom:2px solid #163553}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:78px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:240px}.brand-mark{font-size:34px;color:var(--yellow);font-weight:900}.brand-name{font-size:23px;font-weight:900;line-height:1;color:#fff;letter-spacing:-.7px}.brand-name span{color:var(--yellow)}.brand small{display:block;font-size:10px;letter-spacing:.4px;font-weight:700;margin-top:4px}.links{display:flex;align-items:center;gap:22px}.links a{font-size:13px;font-weight:700;text-decoration:none}.links a:hover{color:var(--yellow)}.phone{display:inline-flex;align-items:center;gap:9px;background:var(--yellow);color:#07152b;padding:12px 17px;border-radius:11px;font-weight:900;text-decoration:none;white-space:nowrap}
+.hero{background:linear-gradient(90deg,rgba(3,20,42,.98) 0%,rgba(3,20,42,.91) 37%,rgba(3,20,42,.15) 75%),url('assets/hero-jose-van.jpg') center right/cover no-repeat;color:white;min-height:460px;display:flex;align-items:center}.hero-inner{padding:55px 0;max-width:650px}.eyebrow{font-weight:800;font-size:17px;line-height:1.25;text-transform:uppercase;max-width:460px}.hero h1{font-size:clamp(42px,6vw,72px);line-height:.95;letter-spacing:-2px;margin:12px 0 18px;font-weight:1000}.hero h1 span{color:var(--yellow);display:block}.underline{width:95px;height:5px;background:var(--yellow);margin:12px 0 18px}.hero p{font-size:18px;max-width:520px;margin:0 0 24px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 18px;border-radius:12px;font-weight:900;text-decoration:none;border:2px solid transparent}.btn-yellow{background:var(--yellow);color:#07152b}.btn-outline{border-color:#fff;color:#fff;background:rgba(3,20,42,.65)}
+section{padding:44px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:22px}.section-head h2,.section-title{font-size:clamp(28px,4vw,39px);font-weight:1000;line-height:1.05;margin:0;letter-spacing:-.8px}.section-head p{margin:0;color:#23344e;text-transform:uppercase;font-size:13px;font-weight:700}.yellow-line{width:100px;height:5px;background:var(--yellow);margin-top:8px}
+.services-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}.service-card{border-right:1px solid #e4e8ee;padding:0 10px 8px;text-align:center}.service-card img{width:100%;height:118px;object-fit:cover;border-radius:8px}.service-icon{width:46px;height:46px;border-radius:50%;background:var(--navy);color:#fff;border:3px solid #fff;display:grid;place-items:center;font-size:23px;margin:-26px auto 8px;position:relative}.service-card h3{font-size:15px;line-height:1.1;margin:0 0 8px;font-weight:900;text-transform:uppercase}.service-card p{font-size:12px;line-height:1.45;margin:0;text-align:left}
+.split{display:grid;grid-template-columns:1.2fr 1fr;padding:0}.why{background:var(--navy);color:#fff;padding:38px max(4vw,24px)}.why h2{font-size:clamp(27px,3.5vw,37px);line-height:1.02;margin:0 0 24px;font-weight:1000}.why h2 span{color:var(--yellow)}.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.benefit{text-align:center}.benefit .icon{width:60px;height:60px;border:1px solid #fff;border-radius:50%;display:grid;place-items:center;margin:0 auto 8px;font-size:25px}.benefit h3{color:var(--yellow);font-size:14px;line-height:1.15;margin:0 0 8px;text-transform:uppercase}.benefit p{font-size:12px;margin:0}.about{display:grid;grid-template-columns:1.1fr .9fr;background:#f5f6f8;min-height:290px}.about-copy{padding:35px}.about-copy h2{font-size:30px;font-style:italic;margin:0}.about-copy p{font-size:14px;margin:12px 0}.about img{width:100%;height:100%;min-height:290px;object-fit:cover}.slogan{background:var(--navy);color:var(--yellow);font-style:italic;font-weight:900;padding:12px 18px;margin-top:16px}
+.projects-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.project{border-radius:7px;overflow:hidden;background:#edf0f4}.project img{width:100%;height:140px;object-fit:cover;display:block}.project p{margin:0;padding:9px 12px;font-size:13px;font-weight:800}
+.reviews-areas{display:grid;grid-template-columns:1fr 1fr;gap:34px}.reviewbox{padding:8px 0}.stars{color:#f9c735;font-size:30px;letter-spacing:2px}.review-note{color:var(--muted);font-size:14px}.review-cta{display:inline-block;margin-top:8px;font-weight:800;color:var(--navy)}.area-flex{display:grid;grid-template-columns:1fr 42%;gap:18px;align-items:center}.areas-list{columns:2;list-style:none;padding:0;margin:14px 0}.areas-list li{margin:7px 0;font-size:14px}.areas-list li:before{content:"●";color:var(--navy);margin-right:9px}.area-flex img{width:100%;height:170px;object-fit:cover;border-radius:10px}.small-cta{display:inline-block;background:var(--yellow);padding:10px 14px;border-radius:9px;font-weight:900;text-decoration:none;font-size:12px}
+.bottom-cta{background:linear-gradient(90deg,rgba(3,20,42,.95),rgba(3,20,42,.68)),url('assets/footer-south-orange-county.jpg') center/cover;color:#fff;padding:28px 0}.bottom-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}.bottom-inner h2{font-size:25px;line-height:1.1;margin:0 0 4px}.bottom-inner p{margin:0;font-size:13px}.footer{background:#03142a;color:#d9e1ec;padding:22px 0;font-size:12px}.footer-inner{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.footer a{color:var(--yellow)}
+@media(max-width:1000px){.links{gap:12px}.links a{font-size:12px}.brand{min-width:210px}.brand-name{font-size:20px}.services-grid{grid-template-columns:repeat(3,1fr)}.service-card{margin-bottom:10px}.hero{background-position:60% center}.split{grid-template-columns:1fr}.about{grid-template-columns:1fr 40%}}
+@media(max-width:720px){.nav{padding:12px 0;flex-wrap:wrap}.links{order:3;width:100%;overflow:auto;padding:8px 0 3px;gap:18px}.links a{white-space:nowrap}.nav>.phone{margin-left:auto;padding:10px 12px;font-size:12px}.brand{min-width:0}.brand-mark{font-size:28px}.brand-name{font-size:18px}.brand small{font-size:9px}.hero{min-height:560px;background-image:linear-gradient(90deg,rgba(3,20,42,.97),rgba(3,20,42,.75)),url('assets/hero-jose-van.jpg');background-position:center;background-size:cover}.hero-inner{padding:44px 0}.eyebrow{font-size:14px}.hero h1{font-size:49px}.hero p{font-size:16px}.section-head{align-items:start;flex-direction:column}.services-grid{grid-template-columns:repeat(2,1fr);gap:12px}.service-card{padding:0 6px 14px}.service-card img{height:110px}.service-card p{text-align:center}.benefits{grid-template-columns:repeat(2,1fr);row-gap:24px}.why{padding:32px 5%}.about{grid-template-columns:1fr}.about img{height:240px;min-height:0;order:-1}.about-copy{padding:28px 6%}.projects-grid{grid-template-columns:repeat(2,1fr)}.project img{height:125px}.reviews-areas{grid-template-columns:1fr;gap:25px}.area-flex{grid-template-columns:1fr 38%}.area-flex img{height:145px}.bottom-inner{align-items:flex-start;flex-direction:column}.bottom-inner h2{font-size:23px}.bottom-inner .phone{font-size:18px}.footer-inner{flex-direction:column}}
+@media(max-width:380px){.hero h1{font-size:42px}.actions .btn{width:100%}.services-grid{grid-template-columns:1fr 1fr}.area-flex{grid-template-columns:1fr}.area-flex img{height:180px}}
+</style>
+</head>
+<body>
+<header class="topbar">
+ <div class="wrap nav">
+  <a class="brand" href="#home" aria-label="PrimeFix Handyman Services home"><span class="brand-mark">⌂</span><span class="brand-name">PRIME<span>FIX</span><small>HANDYMAN SERVICES</small></span></a>
+  <nav class="links" aria-label="Main navigation"><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#projects">Before &amp; After</a><a href="#reviews">Reviews</a><a href="#areas">Service Areas</a><a href="#contact">Contact</a></nav>
+  <a class="phone" href="tel:+19497952203">☎ 949-795-2203</a>
+ </div>
+</header>
+<main>
+<section class="hero" id="home"><div class="wrap"><div class="hero-inner">
+ <div class="eyebrow">Reliable home repairs from a handyman you can trust</div>
+ <h1>NO JOB IS <span>TOO SMALL!</span></h1><div class="underline"></div>
+ <p>From plumbing and electrical repairs to HVAC, installations, drywall repairs, and those small projects you've been putting off — PrimeFix Handyman Services is here to get it done right.</p>
+ <div class="actions"><a class="btn btn-yellow" href="sms:+19497952203">☎ <span>CALL OR TEXT<br><strong>949-795-2203</strong></span></a><a class="btn btn-outline" href="sms:+19497952203?body=Hi%20PrimeFix%2C%20I%27d%20like%20to%20request%20a%20free%20estimate.">▦ REQUEST A<br> FREE ESTIMATE</a></div>
+</div></div></section>
+<section id="services"><div class="wrap">
+ <div class="section-head"><div><h2>OUR SERVICES</h2><div class="yellow-line"></div></div><p>Quality repairs. Reliable service. For your home.</p></div>
+ <div class="services-grid">
+  <article class="service-card"><img src="assets/plumbing.jpg" alt="Plumbing repair"><div class="service-icon">⚒</div><h3>Plumbing Repairs</h3><p>Faucets, toilets, garbage disposals, water heaters, water lines, filters, drains and more.</p></article>
+  <article class="service-card"><img src="assets/electrical.jpg" alt="Home lighting"><div class="service-icon">ϟ</div><h3>Electrical Repairs</h3><p>Outlets, switches, lighting, ceiling fans, range hoods, recessed lighting and more.</p></article>
+  <article class="service-card"><img src="assets/hvac.jpg" alt="Outdoor HVAC unit"><div class="service-icon">✿</div><h3>HVAC Repairs</h3><p>AC troubleshooting, capacitor replacement, fan motors, filters and more.</p></article>
+  <article class="service-card"><img src="assets/drywall.jpg" alt="Drywall repair"><div class="service-icon">⚒</div><h3>Drywall &amp; General Repairs</h3><p>Drywall, doors, trim, shelves, blinds, screens, handrails and furniture assembly.</p></article>
+  <article class="service-card"><img src="assets/installation.jpg" alt="Range hood installation"><div class="service-icon">⚙</div><h3>Installation Services</h3><p>Fixtures, appliances, faucets, lighting, ceiling fans, shelving, mailboxes and more.</p></article>
+  <article class="service-card"><img src="assets/maintenance.jpg" alt="Home maintenance checklist"><div class="service-icon">▤</div><h3>Preventative Maintenance</h3><p>Keep your home running smoothly with routine maintenance and inspections.</p></article>
+ </div>
+</div></section>
+<section class="split">
+ <div class="why"><h2>WHY HOMEOWNERS<br><span>CHOOSE PRIMEFIX</span></h2><div class="benefits">
+  <div class="benefit"><div class="icon">★★★</div><h3>25+ Years of Experience</h3><p>Decades of hands-on experience.</p></div>
+  <div class="benefit"><div class="icon">⌂</div><h3>Homeowner-Focused</h3><p>We specialize in residential repairs. No project is too small.</p></div>
+  <div class="benefit"><div class="icon">✓</div><h3>Quality Workmanship</h3><p>Careful work and attention to detail.</p></div>
+  <div class="benefit"><div class="icon">●</div><h3>Local &amp; Reliable</h3><p>Proudly serving South Orange County.</p></div>
+ </div></div>
+ <div class="about" id="about"><div class="about-copy"><h2>ABOUT JOSE</h2><div class="yellow-line"></div><p>PrimeFix is built around personal service, honest communication, quality workmanship, and treating every customer's home like it matters — because it does.</p><p>My goal is to provide reliable repairs without making small jobs feel like a big hassle.</p><div class="slogan">Often imitated, but never duplicated.<br>We only deliver high-quality service.</div></div><img src="assets/about-jose.jpg" alt="Jose working on a home repair"></div>
+</section>
+<section id="projects"><div class="wrap"><div class="section-head"><div><h2>BEFORE &amp; AFTER</h2><div class="yellow-line"></div></div><p>Small repairs. Big difference.</p></div>
+ <div class="projects-grid">
+  <article class="project"><img src="assets/before-after-faucet.jpg" alt="Faucet repair before and after"><p>Faucet replacement</p></article>
+  <article class="project"><img src="assets/before-after-fan.jpg" alt="Ceiling fan replacement before and after"><p>Ceiling fan replacement</p></article>
+  <article class="project"><img src="assets/before-after-hvac.jpg" alt="HVAC fan repair before and after"><p>HVAC fan repair</p></article>
+  <article class="project"><img src="assets/before-after-hood.jpg" alt="Range hood installation before and after"><p>Range hood installation</p></article>
+ </div></div></section>
+<section><div class="wrap reviews-areas">
+ <div id="reviews"><h2 class="section-title">CUSTOMER REVIEWS</h2><div class="yellow-line"></div><div class="reviewbox"><div class="stars">★★★★★</div><p><strong>Your customers' words belong here.</strong></p><p class="review-note">Add a real customer review from Google, Yelp, or a message from a customer once you have permission to share it.</p><a class="review-cta" href="sms:+19497952203">Have a question? Contact PrimeFix →</a></div></div>
+ <div id="areas"><h2 class="section-title">SERVICE AREAS</h2><div class="yellow-line"></div><div class="area-flex"><div><p>Proudly serving homeowners throughout greater South Orange County.</p><ul class="areas-list"><li>Irvine</li><li>Tustin</li><li>Santa Ana</li><li>Costa Mesa</li><li>Mission Viejo</li><li>Surrounding areas</li></ul><a class="small-cta" href="tel:+19497952203">☎ DON'T SEE YOUR CITY? CALL US!</a></div><img src="assets/footer-south-orange-county.jpg" alt="Southern California coastal landscape"></div></div>
+</div></section>
+<section class="bottom-cta" id="contact"><div class="wrap bottom-inner"><div><h2>READY TO GET THAT PROJECT DONE?</h2><p>Call or text PrimeFix today for a free estimate.</p></div><a class="phone" href="tel:+19497952203">☎ 949-795-2203</a><strong>CALL&nbsp; | &nbsp;TEXT&nbsp; | &nbsp;GET IT FIXED</strong></div></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><span>© <span id="year"></span> PrimeFix Handyman Services. All rights reserved.</span><span>Serving Irvine, Tustin, Santa Ana, Costa Mesa, Mission Viejo &amp; surrounding areas.</span><a href="sms:+19497952203">Call or text 949-795-2203</a></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
